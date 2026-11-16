@@ -5,8 +5,17 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>Tilt Up Privacy Policy</title>
   <style>
-    body { margin: 0; background: #f4f8ff; color: #162343; font: 1rem/1.65 system-ui, sans-serif; }
-    main { max-width: 44rem; margin: auto; padding: 2rem 1.25rem 4rem; }
+    body {
+      margin: 0;
+      background: #f4f8ff;
+      color: #162343;
+      font: 1rem/1.65 system-ui, sans-serif;
+    }
+    main {
+      max-width: 44rem;
+      margin: auto;
+      padding: 2rem 1.25rem 4rem;
+    }
     h1, h2 { line-height: 1.25; }
     a { color: #124c98; }
   </style>
@@ -15,6 +24,7 @@
 <main>
   <h1>Tilt Up Privacy Policy</h1>
   <p>This policy describes how Tilt Up handles information when you play and use its online features.</p>
+  <p><a href="#delete-data">Request deletion of your Tilt Up data</a></p>
 
   <h2>Information used by the game</h2>
   <p>Tilt Up uses a randomly assigned player ID and an anonymous session to recognize your game profile. The online service stores your leaderboard nickname, scores, weekly run and reward records, and daily reward progress. Your nickname and ranked scores can be visible to other players. Please avoid putting personal information in your nickname.</p>
@@ -23,9 +33,13 @@
   <h2>Why we use this information</h2>
   <p>We use it to maintain your game profile, display rankings, track reward eligibility, and prevent duplicate reward claims. Supabase hosts the authentication and database services and processes the information needed to provide these features. The app connects to these services over HTTPS.</p>
 
-  <h2>Retention and deletion</h2>
+  <h2 id="delete-data">Delete your Tilt Up account and data</h2>
   <p>Profile, score, and reward records are kept to support ongoing play. Clearing the app’s storage or uninstalling it removes its local data but does not send a deletion request for online records.</p>
-  <p>To ask about your data or request deletion of your online profile and associated game records, email <a href="mailto:ramedusastudios.support@gmail.com">ramedusastudios.support@gmail.com</a>. Include your in-game nickname so we can help locate your profile. Never send session tokens or passwords.</p>
+  <ol>
+    <li>If you can still open your player profile in Tilt Up, go to <strong>Settings → Delete my data</strong> and choose <strong>Send request</strong>. The request is tied to your current player session.</li>
+    <li>If you cannot access the game or your profile, email <a href="mailto:ramedusastudios.support@gmail.com?subject=Tilt%20Up%20data%20deletion%20request">ramedusastudios.support@gmail.com</a> with your in-game nickname, if known. Include your player ID if you previously saved it. We may need more information to verify the request before deleting data. Never send passwords or session tokens.</li>
+  </ol>
+  <p>When we process a verified request, we delete the online account, profile and nickname, leaderboard scores, weekly runs and reward records, and daily reward progress from the active game database. Preferences and other local game data can be removed by clearing the app’s storage or uninstalling it.</p>
 </main>
 </body>
 </html>
